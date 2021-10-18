@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clearfix {
+    clear:both;
+}
+
+@font-face {
+    font-family: 'Roboto'; /* Имя шрифта */
+    src: url(fonts/RobotoRegular.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    background-color: #EEEFF1;
+    width:auto;
+}
+
+.headurls {
+    padding-left:399px;
+}
+
+.headurls a {
+    color:#34547A;
+    text-decoration: none;
+    margin-top: 79px;
+    padding-right:42px;
+    line-height: 18px;
+    font-weight: 500;
+    display:inline-block;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform:uppercase;
+}
+
+.headurls a :active {
+    color:green;
+}
+
+.design {
+    padding-top:160px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.describe {
+    padding-top: 45px;
+    font-size: 16px;
+    line-height: 26px;
+    width: 540px;
+    color: #727272;
+}
+
+a.button {
+    padding-left: 41px;
+    padding-top: 19px;
+    padding-right: 41px;
+    padding-bottom: 20px;
+    background-color: #34547A;
+    color:white;
+    margin-bottom: 141px;
+}
+
+div.about {
+    text-align: center;
+    background-color: transparent;
+}
+
+.me {
+    margin-top: 112px;
+    margin-bottom: 42px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.des {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 89px;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #727272;
+}
+
+
+.imgs .blockfirst {
+    width: 185px;
+    display: inline-block;
+    background-color: #34547A;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.imgs .blockfirst .picinrow {
+    float:left;
+    padding-left: 40px;
+}
+
+div.imgs {
+    background-color: #34547A;
+    padding-left: 10px;
+    padding-left: 392px;
+    color:#FFFFFF;
+}
+
+.picinrow {
+    
+    background-color: #34547A;
+    padding-top:100px;
+    padding-bottom:100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.quantity {
+    padding-bottom: 5px;
+    padding-top:100px;
+    background-color: #34547A;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+}
+
+.projects {
+    background-color: #34547A;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.working {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.workingdesc {
+    width: 540px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 42px;
+    margin-bottom: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #727272;
+}
+
+.iframebot {
+    margin-left:auto;
+    margin-right:auto;
+    width: 1110px;
+    height: 600px;
+    display: block;
+}
+
+.video {
+    margin-left:auto;
+    margin-right:auto;
+    width: 1110px;
+    height: 600px;
+    display: block;
+}
+
+.ivanov {
+    font-size: 21px;
+    line-height: 24px;
+    padding-top: 50px;
+    margin-left: 406px;
+    margin-bottom: 15px;
+}
+
+.rights {
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 47px;
+    margin-left: 406px
+}
+
+.footer {
+    background-color: #34547A;
+    margin-top: 100px;
+    color:#FFFFFF;
+}
